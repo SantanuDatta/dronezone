@@ -1,0 +1,473 @@
+/* ========================
+   -CSS Code Structure
+    1. Global CSS
+    2. Typography
+    3. Header Section
+    4. Banner Section
+    5. Info Section
+    6. Portfolio Section
+    7. Newsletter Section
+    8. Map Section
+    9. Footer Section
+========================== */
+
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Muli:300,400,600,700,800');
+
+/*1.0 Global Css Starts*/
+
+body{
+    font-family: 'Muli', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Muli', sans-serif;
+}
+
+p{
+    font-family: 'Muli', sans-serif;
+}
+/*1.0 Global Css End*/
+
+
+/*3.0 Header Section Start*/
+
+header{
+}
+
+.navbar-brand{
+    padding-top: 0px;
+}
+
+.navbar{
+    margin: 20px auto;
+    width: 55%;
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #fff;
+    padding: 8px 15px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #d32721;
+    background-color: #fff;
+    border: 1px solid #d32721;
+    border-radius: 25px;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+.navbar-light .navbar-nav .nav-link:focus{
+    color: #d32721;
+    background-color: #fff;
+    border: 1px solid #d32721;
+    border-radius: 25px;
+}
+
+.cover{
+    background: url(../img/banner-bg.png) no-repeat;
+    background-size: cover;
+    min-height: 50rem;
+    height: auto;
+    border-radius: 0;
+    width: 100%;
+    color: #fff;
+    padding-top: 1rem;
+}
+
+.cover h2{
+    text-align: center;
+    margin-top: 150px;
+    color: #fff;
+}
+
+.cover p{
+    text-align: center;
+    margin: 20px;
+    color: #fff;
+}
+
+.cover .btn{
+    margin: 20px 10px;
+    border-radius: 25px;
+    padding: 10px 25px;
+    font-size: 16px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.cover .btn:hover{
+    background-color: #fff;
+    color: #d32721;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+.cover .btn:focus{
+    background-color: #fff;
+    color: #d32721;
+    font-weight: 600;
+}
+
+.button-one{
+    text-align: right;
+}
+.button-two{
+    text-align: left;
+}
+/*3.0 Header Section End*/
+
+/*4.0 Banner Section Start*/
+
+
+.icon{
+    background-color: #f6f6f6;
+}
+
+.icon .col-lg-3{
+    text-align: center;
+}
+
+.icon img{
+    width: 70%;
+}
+
+.i-one{
+    margin: 73px auto;
+}
+
+.i-two{
+    margin: 59px auto;
+}
+
+.i-three{
+    margin: 64px auto;
+}
+
+.i-four{
+    margin: 61px auto;
+}
+
+.icon .btn{
+    display: block;
+    margin: 20px auto 60px;
+    border-radius: 25px;
+    padding: 10px 25px;
+    font-size: 16px;
+    background-color: #4762a9;
+    color: #fff;
+}
+
+.icon .btn:hover{
+    background-color: #fff;
+    color: #d32721;
+    border: 1px solid #d32721;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+.icon .btn:focus{
+    background-color: #fff;
+    color: #d32721;
+    border: 1px solid #d32721;
+    font-weight: 600;
+}
+/*4.0 Banner Section End*/
+
+/*5.0 Info Section Start*/
+
+.info .col-lg-6{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.info-des-one{
+    width: 85%;
+    display: block;
+    margin: 100px auto;
+}
+/*5.0 Info Section End*/
+
+/*6.0 Portfolio Section Start*/
+
+.portfolio{
+    background-color: #f6f6f6;
+}
+
+.portfolio .col-lg-6{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.port-txt-one{
+    display: block;
+    margin: 100px auto;
+    width: 65%;
+}
+
+.port-txt-two{
+    display: block;
+    margin: 100px auto;
+    width: 65%;
+}
+
+.portfolio .btn{
+    display: block;
+    margin: 20px auto 60px;
+    border-radius: 25px;
+    padding: 10px 25px;
+    font-size: 16px;
+    background-color: #4762a9;
+    color: #fff;
+}
+
+.portfolio .btn:hover{
+    background-color: #fff;
+    color: #d32721;
+    border: 1px solid #d32721;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+.portfolio .btn:focus{
+    background-color: #fff;
+    color: #d32721;
+    border: 1px solid #d32721;
+    font-weight: 600;
+}
+/*6.0 Portfolio Section End*/
+
+/*7.0 Newsletter Section Start*/
+
+.newsletter{
+    background: url(../img/newsletter-bg.png) no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+.newsletter h3{
+    text-align: center;
+    margin: 60px auto;
+    font-weight: 700;
+    color: #fff;
+}
+
+.newsletter .form-inline{
+    display: block;
+    margin: 0px auto;
+}
+
+.form-control.mr-sm-2{
+    position: absolute;
+    left: 30%;
+    background-color: transparent;
+    color: #fff;
+    opacity: 0.8;
+    z-index: 1;
+    border-radius: 25px;
+    padding: 5px 25px;
+}
+
+.newsletter .btn{
+    z-index: 2;
+    border-radius: 25px;
+    position: absolute;
+    left: 56%;
+    padding: 6px 30px;
+    background-color: #fff;
+    border-color: #fff;
+    color: #d32721;
+}
+
+.newsletter .btn:hover{
+    color: #fff;
+    font-weight: 600;
+    background-color: #4762a9;
+    transition: 0.2s all ease-in;
+    border-color: #4762a9;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+/*7.0 Newsletter Section End*/
+
+/*8.0 Map Section Start*/
+
+.map{
+    background: url(../img/map-bg.png) no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+/*8.0 Map Section End*/
+
+/*9.0 Footer Section Start*/
+
+footer{
+    color: #a7acbc;
+    margin: 60px auto;
+    text-align: center;
+}
+/*9.0 Footer Section End*/
+
+/*Media Query for mobile device from screen to 500px*/
+@media screen and (max-width:500px){
+    .cover{
+        min-height: 40rem;
+    }
+    
+    .cover h2{
+        margin-top: 70px;
+    }
+    
+    .cover .btn{
+        font-size: 12px;
+    }
+    
+    .navbar{
+        width: 100%;
+        text-align: right;
+    }
+    
+    .button-one{
+        text-align: center;
+    }
+    
+    .button-two{
+        text-align: center;
+    }
+    
+    .icon .col-lg-3{
+        margin-bottom: -60px;
+    }
+    
+    .icon .btn{
+        margin: 30px auto;
+        font-size: 12px;
+    }
+    
+    .port-txt-one{
+        width: 75%;
+    }
+    .port-txt-two{
+        width: 75%;
+    }
+    
+    .portfolio .btn{
+        margin: 0px auto 20px;
+        font-size: 12px;
+    }
+    
+    .newsletter{
+        height: 15rem;
+    }
+    
+    .newsletter h3{
+        margin: 30px auto;
+    }
+    
+    .form-control.mr-sm-2{
+        left: 0%;
+    }
+    
+    .newsletter .btn{
+        left: 72%;
+        top: 0%;
+    }
+    
+    .map{
+        height: 8rem;
+    }
+    
+    .footer{
+        font-size: 12px;
+        margin: 30px auto;
+    }
+}
+
+/*Media Query for tablet device from 500px to 768px*/
+@media (min-width:500px) and (max-width:768px){
+    .navbar{
+        width: 85%;
+        text-align: right;
+    }
+    
+    .cover{
+        min-height: 27rem;
+        background-size: cover;
+    }
+    .cover h2{
+        margin-top: 60px;
+    }
+    
+    .button-one{
+        width: 50%;
+    }
+    
+    .button-two{
+        width: 50%;
+    }
+    
+    .icon img {
+        width: 50%;
+    }
+    
+    .map{
+        height: 15rem;
+    }
+}
+
+/*Media Query for tablet device from 768px to 1024px*/
+@media (min-width:768px) and (max-width:1024px){
+    
+    .navbar{
+        width: 83%;
+    }
+    
+    .cover{
+        min-height: 36rem;
+    }
+    
+    .cover h2{
+        margin-top: 120px;
+    }
+    
+    .map{
+        height: 20rem;
+    }
+}
+
+/*Media Query for laptop device from 1024px to 1280px*/
+@media (min-width:1024px) and (max-width:1280px){
+    
+    .navbar{
+        width: 65%;
+    }
+    
+    .cover{
+        min-height: 45rem;
+    }
+    
+    .cover h2{
+        margin-top: 120px;
+    }
+    
+    .map{
+        height: 25rem;
+    }
+}
+
