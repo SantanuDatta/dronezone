@@ -32,23 +32,24 @@ p{
 
 /*3.0 Header Section Start*/
 
-header{
-}
 
+/*
 .navbar-brand{
     padding-top: 0px;
 }
+*/
 
 .navbar{
-    margin: 20px auto;
-    width: 55%;
-    color: #fff;
+    margin: 0 auto;
+    width: 70%;
 }
 
 .navbar-light .navbar-nav .nav-link{
     color: #fff;
     padding: 8px 15px;
+	text-align: center;
 }
+
 .navbar-light .navbar-nav .nav-link:hover{
     color: #d32721;
     background-color: #fff;
@@ -66,6 +67,17 @@ header{
     background-color: #fff;
     border: 1px solid #d32721;
     border-radius: 25px;
+}
+
+.navbar-light .navbar-toggler{
+	color: #fff;
+	border: 0px;
+	font-size: 25px;
+}
+
+.navbar-light .navbar-toggler:focus, .navbar-light .navbar-toggler:hover{
+	color: #333;
+	transition: 0.3s all ease-in;
 }
 
 .cover{
@@ -318,14 +330,18 @@ header{
 /*9.0 Footer Section Start*/
 
 footer{
-    color: #a7acbc;
-    margin: 60px auto;
     text-align: center;
+	background-color: #d32721;
 }
+
+footer h5{
+	margin: 0 auto;
+	font-size: 12px;
+} 
 /*9.0 Footer Section End*/
 
-/*Media Query for mobile device from screen to 500px*/
-@media screen and (max-width:500px){
+/*Media Query for mobile device from screen to 550px*/
+@media screen and (max-width:550px){
     .cover{
         min-height: 40rem;
     }
@@ -393,19 +409,15 @@ footer{
         height: 8rem;
     }
     
-    .footer{
-        font-size: 12px;
-        margin: 30px auto;
+    footer h5{
+        font-size: 8px;
     }
+	
+
 }
 
-/*Media Query for tablet device from 500px to 768px*/
-@media (min-width:500px) and (max-width:768px){
-    .navbar{
-        width: 85%;
-        text-align: right;
-    }
-    
+/*Media Query for tablet device from 550px to 990px*/
+@media (min-width:550px) and (max-width:990px){
     .cover{
         min-height: 27rem;
         background-size: cover;
@@ -423,51 +435,23 @@ footer{
     }
     
     .icon img {
-        width: 50%;
+        width: 80%;
+    }
+	
+	.icon .col-lg-3 {
+        width: 25%;
     }
     
     .map{
         height: 15rem;
     }
-}
-
-/*Media Query for tablet device from 768px to 1024px*/
-@media (min-width:768px) and (max-width:1024px){
-    
-    .navbar{
-        width: 83%;
-    }
-    
-    .cover{
-        min-height: 36rem;
-    }
-    
-    .cover h2{
-        margin-top: 120px;
-    }
-    
-    .map{
-        height: 20rem;
-    }
-}
-
-/*Media Query for laptop device from 1024px to 1280px*/
-@media (min-width:1024px) and (max-width:1280px){
-    
-    .navbar{
-        width: 65%;
-    }
-    
-    .cover{
-        min-height: 45rem;
-    }
-    
-    .cover h2{
-        margin-top: 120px;
-    }
-    
-    .map{
-        height: 25rem;
-    }
+	
+	.newsletter .btn{
+		left: 65%;
+	}
+	
+	footer h5{
+		font-size: 8px;
+	}
 }
 
